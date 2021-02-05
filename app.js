@@ -27,4 +27,4 @@ app.post('/envia-cep', async (req, res) => {
     res.render('resultado', {dado: resultado})
 })
 
-app.listen(3333)
+app.listen(3000)
